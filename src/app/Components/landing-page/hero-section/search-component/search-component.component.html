@@ -1,0 +1,76 @@
+<section class=" ">
+  <h3 class="text-white mx-4 px-3">Where to ... ?</h3>
+  <div
+    class="search-wrapper bg-white rounded-pill py-4 px-3 d-flex align-items-center justify-content-between"
+  >
+    <form
+      action=""
+      class="destination-form w-100 p-2 d-flex justify-content-between align-items-center"
+    >
+      <div
+        class="destination-inputs d-flex justify-content-center align-items-center"
+      >
+        <div class="current-loctaion position-relative">
+          <div
+            class="home-container position-absolute d-flex align-items-center justify-content-center gap-2"
+          >
+            <button
+              type="button"
+              class="home-btn btn p-0 m-0 d-flex justify-content-center align-items-center gap-1 rounded-pill"
+            >
+              <i class="fa-solid fa-house"></i> <span>Use Home</span>
+            </button>
+            <button
+              type="button"
+              class="home-btn btn p-0 m-0 d-flex justify-content-center align-items-center gap-2 rounded-pill"
+            >
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <span>Use current location</span>
+            </button>
+          </div>
+          <div
+            class="inputs d-flex justify-content-start align-items-center rounded-pill mx-1 py-1 px-3"
+          >
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <input
+              class="p-2 rounded-pill mx-1"
+              type="text"
+              placeholder="Current Location"
+            />
+          </div>
+        </div>
+        <div class="stripe rounded-pill"></div>
+        <div
+          class="inputs d-flex justify-content-start align-items-center rounded-pill mx-1 py-1 px-3"
+        >
+          <i class="fa-solid fa-location-dot"></i>
+          <input
+            class="p-2 rounded-pill mx-1"
+            type="text"
+            placeholder="Destination"
+          />
+        </div>
+      </div>
+      <div
+        class="ticketTypes-container gap-3 d-flex align-items-center justify-content-between"
+      >
+        @for(item of ticketTypes ; track item.id){
+        <div
+          class="d-flex align-items-center justify-content-start text-center"
+        >
+          <label class="label-container" [for]="item.id">
+            <div class="">
+              <i [class]="item.icon"></i>
+              <p class="m-0 p-0">{{ item.name }}</p>
+            </div>
+          </label>
+          <input type="radio" [id]="item.id" class="d-none" [value]="item.id" />
+        </div>
+        }
+      </div>
+      <div class="send-btn">
+        <button class="btn rounded-pill exp-btn" type="button">Explore</button>
+      </div>
+    </form>
+  </div>
+</section>

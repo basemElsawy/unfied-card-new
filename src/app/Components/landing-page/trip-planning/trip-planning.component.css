@@ -1,0 +1,153 @@
+.trip-planning {
+  height: 60vh;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+}
+
+.trip-planning-wrapper {
+  width: var(--global-alignment);
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.trip-data {
+  & h3 {
+    font-size: var(--headlines);
+  }
+}
+
+.form-group div {
+  width: 100% !important;
+}
+.data-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--primary-color);
+  padding-block: 15px !important;
+}
+.data-control input {
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: rgba(128, 128, 128, 0.6);
+}
+i {
+  color: rgba(128, 128, 128, 0.75);
+}
+
+.btn {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn:active {
+  scale: 0.99;
+}
+.form-actions {
+  position: relative;
+  background-color: white;
+  z-index: 1 !important;
+}
+
+.line {
+  align-self: flex-start;
+  margin-left: 1.425rem;
+  border: 2px dashed var(--primary-color);
+  height: 50px;
+  position: absolute;
+  top: 60px;
+  z-index: 0 !important;
+}
+.traveling-methods {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-inline: 10px;
+}
+.method {
+  flex: 1;
+  width: 95% !important;
+  font-size: 12px;
+  gap: 25px !important;
+  & p {
+    font-size: 10px;
+    transform: translateY(-2px);
+  }
+  & i {
+    font-size: 16px !important;
+  }
+}
+
+.label-container {
+  border: 1px solid var(--primary-color);
+  cursor: pointer !important;
+  padding: 6px !important;
+  width: 60px;
+  color: var(--primary-color) !important;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  & i {
+    /* color: ; */
+    color: var(--primary-color) !important;
+  }
+}
+
+.activeBtn {
+  .label-container {
+    background-color: var(--primary-color) !important;
+    * {
+      color: white !important;
+    }
+  }
+}
+/* 
+ ------------------------- text-section ----------------
+ */
+
+.track-image {
+  top: 50px;
+  width: 1110px;
+  height: 52vh;
+  left: 25px;
+  & img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.tracking-text {
+  transform: translateX(60px);
+  color: white;
+  & h2 {
+    color: white !important;
+  }
+}
+
+.text-paragraph {
+  transform: translateY(60px);
+  & h4 {
+    color: white !important;
+  }
+}
+.text-paragraph p {
+  width: 550px;
+}
+.text-paragraph h4 {
+  font-size: 24px;
+}
+.text-paragraph p {
+  font-size: 18px;
+}
+
+.red-text {
+  color: var(--primary-color);
+}

@@ -1,0 +1,27 @@
+<section class="local-delights-container w-100 py-3">
+  <div class="local-delights-wrapper">
+    <h2 class="text-center">Local Delights</h2>
+    <div
+      class="w-100 py-5 mt-5 d-flex delight-boxes align-items-center justify-content-between"
+    >
+      @for(delight of delightsData; track delight.id){
+      <div
+        class="delights d-flex gap-2 flex-column justify-content-between align-items-center"
+      >
+        <div
+          class="image-title gap-2 d-flex flex-column justify-content-between align-items-center"
+        >
+          <img [src]="delight.image" height="40" alt="" />
+          <h5>{{ delight.name }}</h5>
+        </div>
+        <div class="delight-text">
+          <p class="p-0 m-0">{{ delight.description }}</p>
+        </div>
+      </div>
+      }
+    </div>
+    <div class="d-flex align-items-center justify-content-center py-5">
+      <button class="btn rounded-pill px-5 text-white">Explore Map</button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+.Tickets-container {
+  height: 100%;
+}
+.tickets-wrapper {
+  display: grid;
+  width: var(--global-alignment);
+  margin: auto;
+  padding-block: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.225rem;
+}
+/* h2 {
+  font-size: var(--headlines);
+} */
+
+.ticket-pill {
+  padding: 1.725rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.ticket-pill:hover {
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.ticket-text-group {
+  .fullName {
+    font-size: 12px;
+    color: var(--primary-color);
+  }
+}
+
+h2 {
+  color: var(--secondary-color) !important;
+}

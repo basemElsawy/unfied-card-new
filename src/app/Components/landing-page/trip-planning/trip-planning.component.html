@@ -1,0 +1,69 @@
+<section id="trip-planning" class="trip-planning my-5">
+  <div class="trip-planning-wrapper">
+    <div
+      class="trip-data overflow-hidden p-2 py-4 d-flex align-items-center justify-content-start flex-column w-25 bg-white"
+    >
+      <h2 class="mb-3">Travel Details</h2>
+      <div
+        class="trip-data-form position-relative align-self-stretch d-flex h-100 flex-column justify-content-between align-items-center"
+      >
+        <form
+          class="form-group px-2 py-4 w-100 h-100 d-flex align-items-center flex-column justify-content-between"
+          [formGroup]="travelDetailsForm"
+        >
+          <div
+            style="z-index: 999 !important ; position: relative !important"
+            class="form-actions data-control p-3 rounded-pill"
+          >
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <input placeholder="Current Location" type="text" class="w-100" />
+          </div>
+          <div style="width: 0% !important" class="line"></div>
+          <div class="form-actions data-control p-3 rounded-pill">
+            <i class="fa-solid fa-location-dot"></i>
+            <input placeholder="Destination" type="text" class="w-100" />
+          </div>
+          <div class="form-actions px-2 traveling-methods">
+            @for(item of methods;track item){
+            <div
+              [ngClass]="{ activeBtn: item.id === activeBtn }"
+              class="rounded-circle method d-flex align-items-center w-100 justify-content-start text-center"
+            >
+              <button
+                class="label-container w-100"
+                (click)="activeBtnSetter(item.id)"
+              >
+                <div class="">
+                  <i [class]="item.icon"></i>
+                  <p class="m-0 p-0">{{ item.name }}</p>
+                </div>
+              </button>
+            </div>
+            }
+          </div>
+          <div class="form-actions">
+            <button class="btn w-100 p-2 rounded-pill">Plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="trip-planning-text position-relative">
+      <div class="track-image position-absolute">
+        <img src="../../../../assets/drawingFrame.png" alt="" />
+      </div>
+      <div
+        class="tracking-text h-100 d-flex align-items-start flex-column justify-content-start py-5"
+      >
+        <h2>Travel <span class="red-text">Plan</span></h2>
+        <div class="text-paragraph">
+          <h4>Effortless Travel Planning</h4>
+          <p>
+            Simply enter your destination in Egypt and your current location.
+            We'll explore all the transport possibilities to get you there
+            smoothly and efficiently.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

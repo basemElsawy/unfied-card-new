@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Lexend;
+  src: url("./assets/fonts/Lexend-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #e00601;
+  --secondary-color: #333335;
+  --global-alignment: 90%;
+  --headlines: 1.725rem;
+}
+
+* {
+  font-family: "Lexend";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.global-align {
+  margin: auto;
+  width: 85%;
+}
+
+::-webkit-scrollbar {
+  background-color: #333335;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e00601;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color) !important;
+}
