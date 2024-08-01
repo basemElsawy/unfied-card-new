@@ -5,10 +5,16 @@
   font-style: normal;
 }
 
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$border-color: rgba(51, 51, 53, 0.2);
+$headlines: 32px;
+$placeholder-color: #c0c0c0;
+$inputs-bg: #ececec;
 :root {
   --primary-color: #e00601;
   --secondary-color: #333335;
-  --global-alignment: 90%;
+  --global-alignment: 70%;
   --headlines: 1.725rem;
 }
 

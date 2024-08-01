@@ -68,17 +68,35 @@
             </defs>
           </svg>
         </li>
-        <li class="d-flex align-items-center justify-content-center gap-2">
-          <i class="fa-solid fa-house"></i>
-          <span>Home</span>
+        <li
+          [routerLink]="['/home', 'homepage']"
+          routerLinkActive="router-active"
+          class="d-flex align-items-center justify-content-center flex-column"
+        >
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </div>
         </li>
-        <li class="d-flex align-items-center justify-content-center gap-2">
-          <i class="fa-solid fa-route"></i>
-          <span>Travel</span>
+        <li
+          [routerLink]="['/home', 'travel']"
+          routerLinkActive="router-active"
+          class="d-flex align-items-center justify-content-center flex-column"
+        >
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fa-solid fa-route"></i>
+            <span>Travel</span>
+          </div>
         </li>
-        <li class="d-flex align-items-center justify-content-center gap-2">
-          <i class="fa-solid fa-ticket"></i>
-          <span>Tickets</span>
+        <li
+          [routerLink]="['/home', 'Tickets']"
+          routerLinkActive="router-active"
+          class="d-flex align-items-center justify-content-center flex-column"
+        >
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <i class="fa-solid fa-ticket"></i>
+            <span>Tickets</span>
+          </div>
         </li>
       </ul>
     </nav>
@@ -89,10 +107,14 @@
     <div class="white-borders">
       <p class="m-0 py-1 px-2">EN</p>
     </div>
-    <div class="white-borders">
+    <div
+      class="white-borders"
+      [routerLink]="['/auth', 'signup']"
+      routerLinkActive="router-link-active"
+    >
       <p class="m-0 py-1 px-2">Sign Up</p>
     </div>
-    <div class="white-borders">
+    <div class="white-borders" [routerLink]="['/auth', 'login']">
       <p class="m-0 py-1 px-2">
         <i class="fa-solid fa-arrow-right-to-bracket"></i>
       </p>

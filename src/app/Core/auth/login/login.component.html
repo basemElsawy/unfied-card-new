@@ -1,0 +1,71 @@
+<section
+  class="login-container d-flex align-items-stretch justify-content-center w-100"
+>
+  <div
+    class="w-50 form-container p-4 d-flex flex-column align-items-start justify-content-start gap-5"
+  >
+    <div class="login-header">
+      <img src="../../../../assets/logo.png" alt="" />
+    </div>
+    <div
+      class="login-body d-flex align-items-start flex-column justify-content-start"
+    >
+      <h4 class="py-3 login-form-headline">Log In</h4>
+      <form
+        class="d-flex justify-content-center flex-column align-items-center w-100 gap-4"
+      >
+        <div
+          class="w-100 d-flex align-items-center justify-content-center flex-column gap-4"
+        >
+          <div class="input-container border-pill">
+            <input type="text" placeholder="User Name" />
+          </div>
+          <div
+            class="border-pill d-flex align-items-center justify-content-between flex-column w-100 gap-1"
+          >
+            <div
+              class="input-container border-pill d-flex align-items-center justify-content-between"
+            >
+              <input type="password" placeholder="Password" />
+              <i class="fa-regular fa-eye"></i>
+            </div>
+            <div class="forgot-password w-100 ps-2">
+              <p class="p-0 m-0 w-100">
+                forgot password ?<span class="red-text"> click here</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 border-pill">
+          <button type="button" class="btn w-100 p-2 border-pill">
+            Sign In
+          </button>
+        </div>
+      </form>
+      <div
+        class="social-media d-flex align-items-center py-4 w-100 justify-content-center flex-column gap-4"
+      >
+        <div
+          class="d-flex w-100 align-items-center gap-5 justify-content-center"
+        >
+          <div class="social-icon google">
+            <i class="fa-brands fa-google"></i>
+          </div>
+          <div class="social-icon apple">
+            <i class="fa-brands fa-apple"></i>
+          </div>
+          <div class="social-icon facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+        </div>
+        <div class="bottom-text">
+          Dont have an account ?
+          <span class="red-text" [routerLink]="['/auth', 'signup']"
+            >create new one</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-50 picture-container"></div>
+</section>

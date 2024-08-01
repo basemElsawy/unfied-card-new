@@ -1,5 +1,11 @@
+@mixin displayAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .local-delights-wrapper {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .delight-text {

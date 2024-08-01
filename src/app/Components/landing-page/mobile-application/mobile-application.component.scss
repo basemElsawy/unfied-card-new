@@ -1,0 +1,15 @@
+.mobile-section-wrapper {
+  width: var(--global-alignment);
+  margin: auto;
+  text-transform: capitalize;
+}
+
+.red-text {
+  color: var(--primary-color);
+}
+
+.hand-phone {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}

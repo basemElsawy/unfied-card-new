@@ -1,0 +1,83 @@
+@import "../../../../styles.scss";
+@mixin displayAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-container {
+  background-image: url(../../../../assets/bus1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $secondary-color;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.login-container {
+  height: 100vh;
+}
+.login-form-headline {
+  font-size: $headlines;
+  color: $primary-color !important;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.border-pill {
+  border-radius: 15px !important;
+}
+.input-container {
+  width: 100%;
+  background-color: $inputs-bg;
+  padding: 12px;
+  & input {
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+    font-size: 14px;
+    & ::placeholder {
+      color: $placeholder-color;
+    }
+  }
+}
+.btn {
+  background-color: $primary-color;
+  color: white;
+  border: none !important;
+}
+
+.forgot-password {
+  & p {
+    color: $placeholder-color;
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+}
+.btn:active {
+  background-color: $primary-color;
+  scale: 0.99;
+  color: white;
+}
+
+.red-text {
+  color: $primary-color;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  width: 45px;
+
+  height: 45px;
+  cursor: pointer;
+  @include displayAlignment();
+}
+
+.bottom-text {
+  font-size: 14px;
+}
