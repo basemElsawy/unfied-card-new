@@ -6,6 +6,6 @@ import { SearchComponentComponent } from './search-component/search-component.co
   standalone: true,
   imports: [SearchComponentComponent],
   templateUrl: './hero-section.component.html',
-  styleUrl: './hero-section.component.css',
+  styleUrl: './hero-section.component.scss',
 })
 export class HeroSectionComponent {}

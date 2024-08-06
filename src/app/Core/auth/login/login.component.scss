@@ -81,3 +81,354 @@
 .bottom-text {
   font-size: 14px;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .picture-container {
+    display: none;
+  }
+
+  .login-body {
+    width: 50% !important;
+  }
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .picture-container {
+    display: none;
+  }
+  .login-body {
+    width: 50% !important;
+  }
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .picture-container {
+    display: none;
+  }
+  .login-body {
+    width: 75% !important;
+  }
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .picture-container {
+    display: none;
+  }
+  .login-body {
+    width: 90% !important;
+  }
+
+  .bottom-text {
+    font-size: 12px !important;
+    text-align: center;
+  }
+  .forgot-password p {
+    font-size: 12px !important;
+  }
+  .forgot-password {
+    width: 100%;
+    text-align: center;
+    padding: 0 !important;
+  }
+  .footprint {
+    display: block !important;
+    width: 200px;
+    opacity: 0.5;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -100px;
+    top: 300px;
+    rotate: -45deg;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    & i {
+      font-size: 16px;
+    }
+  }
+  .social-media {
+    padding-block: 15px !important;
+  }
+  .social-media {
+    gap: 15px !important;
+  }
+}

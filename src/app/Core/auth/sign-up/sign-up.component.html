@@ -2,21 +2,30 @@
   class="login-container d-flex align-items-stretch justify-content-center w-100"
 >
   <div
-    class="w-50 form-container p-4 d-flex flex-column align-items-start justify-content-start gap-2"
+    class="w-50 form-container p-4 p-md-3 d-flex flex-column align-items-start justify-content-start gap-2"
   >
     <div class="login-header">
       <img src="../../../../assets/logo.png" alt="" />
     </div>
     <div
-      class="login-body d-flex align-items-center flex-column justify-content-center w-100 h-100"
+      class="login-body position-relative d-flex align-items-center flex-column justify-content-center w-100 h-100"
     >
+      <div class="foot-1 footprint d-none position-absolute">
+        <img src="../../../../assets/footSteps.png" alt="" />
+      </div>
+      <div class="foot-2 footprint d-none position-absolute">
+        <img src="../../../../assets/footsteps2.png" alt="" />
+      </div>
       <div class="sign-in-wrapper">
-        <h4 class="py-1 pt-3 login-form-headline">Sign Up</h4>
+        <h4 class="py-1 pt-3 login-form-headline m-0">Sign Up</h4>
         <form
           class="d-flex justify-content-center flex-column align-items-center w-100 gap-2"
         >
-          <div class="personal-image">
+          <div class="personal-image position-relative">
             <img src="../../../../assets/unknown profile 1.png" alt="" />
+            <div class="plus-icon position-absolute">
+              <i class="fa-solid fa-plus"></i>
+            </div>
           </div>
           <div class="d-flex align-items-center justify-content-center gap-2">
             <div class="input-container border-pill">
@@ -45,7 +54,7 @@
               <input type="text" placeholder="Confirm Password" />
             </div>
           </div>
-          <div class="w-100 border-pill">
+          <div class="w-100 border-pill action-button">
             <button type="button" class="btn w-100 p-2 border-pill">
               Sign In
             </button>
@@ -55,7 +64,7 @@
           class="social-media d-flex align-items-center py-4 w-100 justify-content-center flex-column gap-4"
         >
           <div
-            class="d-flex w-100 align-items-center gap-5 justify-content-center"
+            class="social-media-wrapper d-flex w-100 align-items-center gap-5 justify-content-center"
           >
             <div class="social-icon google">
               <i class="fa-brands fa-google"></i>

@@ -81,3 +81,360 @@
 .bottom-text {
   font-size: 14px;
 }
+
+.personal-image {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  & img {
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+  }
+}
+.plus-icon {
+  right: 0px;
+  color: $primary-color;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+
+  border: 1px solid $primary-color;
+  & i {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .picture-container {
+    display: none;
+  }
+
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .picture-container {
+    display: none;
+  }
+
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .picture-container {
+    display: none;
+  }
+
+  .footprint {
+    display: block !important;
+    width: 290px;
+    opacity: 0.2;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -20px;
+    top: -70px;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .picture-container {
+    display: none;
+  }
+
+  .footprint {
+    display: block !important;
+    width: 200px;
+    opacity: 0.5;
+    z-index: -1;
+
+    & img {
+      width: 100%;
+    }
+  }
+  .foot-1 {
+    left: -100px;
+    top: 180px;
+    rotate: -45deg;
+  }
+  .foot-2 {
+    right: -20px;
+    top: -60px;
+  }
+  .form-container.form-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .personal-image {
+    margin-bottom: 15px;
+  }
+
+  .login-header {
+    width: 100px;
+    height: 40px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .input-container {
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 10px !important;
+    & input {
+      // padding: 8px !important;
+    }
+    & input::placeholder {
+      font-size: 12px;
+    }
+  }
+  .login-form-headline {
+    font-size: 24px;
+    padding-bottom: 0px !important;
+    padding-block: 0px !important;
+  }
+
+  .personal-image {
+    width: 75px;
+    height: 75px;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+    & i {
+      font-size: 12px;
+    }
+  }
+  .action-button {
+    & button {
+      border-radius: 10px !important;
+      font-size: 14px !important;
+    }
+  }
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    & i {
+      font-size: 16px;
+    }
+  }
+  .social-media {
+    padding-block: 15px !important;
+  }
+  .social-media {
+    gap: 15px !important;
+  }
+}

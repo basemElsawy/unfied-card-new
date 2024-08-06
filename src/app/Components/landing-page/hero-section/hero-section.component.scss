@@ -1,0 +1,126 @@
+.hero-section {
+  height: 85vh;
+  background-image: url(../../../../assets/Rectangle\ 5.jpg);
+  background-size: cover;
+  background-color: #181818cf;
+  background-blend-mode: multiply;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.secondHealdine {
+  & h1 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white !important;
+    /* word-spacing: 10px; */
+  }
+}
+.firstHeadline {
+  & h2 {
+    font-size: 26px;
+    color: #a9a9a9 !important;
+  }
+}
+
+.red-line {
+  border-radius: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: #e70101;
+}
+
+.search-container {
+  transform: translateY(40px);
+  width: 100%;
+  height: fit-content !important;
+  margin: auto;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .firstHeadline {
+    & h2 {
+      font-size: 21px !important;
+      color: #a9a9a9 !important;
+    }
+  }
+  .secondHealdine {
+    & h1 {
+      font-size: 26px !important;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 10px;
+      color: white !important;
+      /* word-spacing: 10px; */
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .firstHeadline {
+    & h2 {
+      font-size: 18px !important;
+      color: #a9a9a9 !important;
+    }
+  }
+  .secondHealdine {
+    & h1 {
+      font-size: 24px !important;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 6px;
+      color: white !important;
+      /* word-spacing: 10px; */
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .firstHeadline {
+    & h2 {
+      font-size: 16px !important;
+      color: #a9a9a9 !important;
+    }
+  }
+  .secondHealdine {
+    & h1 {
+      font-size: 21px !important;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 6px;
+      color: white !important;
+      /* word-spacing: 10px; */
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .firstHeadline {
+    padding: 0 !important;
+    margin: 0 !important;
+    & h2 {
+      font-size: 12px !important;
+      color: #a9a9a9 !important;
+      margin: 0 !important;
+      // font-weight: bold;
+      padding: 10px !important;
+    }
+  }
+  .red-line {
+    width: 50px;
+  }
+  .secondHealdine {
+    & h1 {
+      font-size: 16px !important;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: white !important;
+      /* word-spacing: 10px; */
+    }
+  }
+}

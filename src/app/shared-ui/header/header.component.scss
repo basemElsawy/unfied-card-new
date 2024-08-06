@@ -61,3 +61,78 @@ nav {
     font-size: 12px;
   }
 }
+
+.hamburger-menu {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px !important;
+  width: 25px;
+  display: none;
+  cursor: pointer;
+}
+.hamburger-menu .hambar {
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.active-header .hamburger-menu .hambar {
+  background-color: $primary-color;
+  height: 3px;
+  padding: 0 !important;
+}
+
+.active-hamburger .mid-bar {
+  opacity: 0 !important;
+}
+.active-hamburger .top-bar {
+  rotate: 45deg;
+  transform: translateY(10px);
+}
+.active-hamburger .bottom-bar {
+  rotate: -45deg;
+  transform: translateY(-10px);
+}
+.offcanvas-title svg path {
+  fill: var(--primary-color) !important;
+}
+.offcanvas {
+  width: 30%;
+}
+.responsive-navlist ul li {
+  width: 100%;
+  padding: 10px 14px !important;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.router-active-res {
+  background-color: $primary-color !important;
+  color: white !important;
+}
+@media screen and (max-width: 1024px) {
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none !important;
+  }
+
+  .options-part {
+    padding: 0 !important;
+  }
+  .options {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offcanvas {
+    width: 60% !important;
+  }
+}
