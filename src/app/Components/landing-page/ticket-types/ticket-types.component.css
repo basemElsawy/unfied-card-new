@@ -37,3 +37,25 @@
 h2 {
   color: var(--secondary-color) !important;
 }
+@media screen and (max-width: 1199px) {
+  .tickets-wrapper {
+    width: 90% !important;
+    padding: 15px !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 684px) {
+  .tickets-wrapper {
+    width: 90% !important;
+    padding: 15px !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tickets-wrapper {
+    width: 100% !important;
+    padding: 15px !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

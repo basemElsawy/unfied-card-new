@@ -125,7 +125,7 @@
     border-radius: 20px !important;
   }
   .grouped-buttons {
-    top: -22px;
+    top: -21px;
   }
   .searchbar-inputs {
     width: 100% !important;
@@ -139,5 +139,275 @@
   }
   .search-bar-wrapper {
     padding: 0 !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .tickets {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .form-wrapper {
+    flex-direction: column;
+    padding-inline: 15px;
+    padding-block: 20px;
+    gap: 25px;
+    border-radius: 20px !important;
+  }
+  .searchbar-form {
+    border-radius: 20px !important;
+  }
+  .grouped-buttons {
+    top: -21px;
+  }
+  .searchbar-inputs {
+    width: 100% !important;
+  }
+
+  .ticket-type-action {
+    width: 100% !important;
+    display: flex !important;
+    // flex-direction: column !important;
+    gap: 15px;
+  }
+  .btn-container {
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+  }
+  .tickets {
+    width: fit-content !important;
+    padding: 0 !important;
+  }
+  .search-bar-wrapper {
+    padding: 0 !important;
+  }
+  .form-control {
+    font-size: 18px !important;
+  }
+  .form-control::placeholder {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 761px) and (max-width: 991px) {
+  .searchbar-container {
+    width: 100% !important;
+    margin: 0 !important;
+    min-width: 100% !important;
+  }
+  .form-wrapper {
+    flex-direction: column;
+    padding-inline: 15px;
+    padding-block: 20px;
+    gap: 25px;
+    border-radius: 20px !important;
+  }
+  .searchbar-form {
+    border-radius: 20px !important;
+  }
+  .grouped-buttons {
+    top: -21px;
+  }
+  .searchbar-inputs {
+    width: 100% !important;
+  }
+
+  .ticket-type-action {
+    width: 100% !important;
+    display: flex !important;
+    // flex-direction: column !important;
+    gap: 15px;
+  }
+  .btn-container {
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+  }
+  .tickets {
+    width: fit-content !important;
+    padding: 0 !important;
+  }
+  .search-bar-wrapper {
+    padding: 0 !important;
+  }
+  .form-control {
+    font-size: 16px !important;
+  }
+  .form-control::placeholder {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 761px) {
+  .searchbar-container {
+    width: 100% !important;
+    margin: 0 !important;
+    min-width: 100% !important;
+  }
+  .form-wrapper {
+    flex-direction: column;
+    padding-inline: 15px;
+    padding-block: 20px;
+    gap: 25px;
+    border-radius: 20px !important;
+  }
+  .searchbar-form {
+    border-radius: 20px !important;
+  }
+  .grouped-buttons {
+    top: -21px;
+  }
+  .searchbar-inputs {
+    width: 100% !important;
+  }
+
+  .ticket-type-action {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+  .btn-container {
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+  }
+  .tickets {
+    width: fit-content !important;
+    padding: 0 !important;
+  }
+  .search-bar-wrapper {
+    padding: 0 !important;
+  }
+  .form-control {
+    font-size: 14px !important;
+  }
+  .form-control::placeholder {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .searchbar-container {
+    width: 100% !important;
+    margin: 0 !important;
+    min-width: 100% !important;
+  }
+  .searchbar-headline h5 {
+    font-size: 16px !important;
+    padding-left: 0.5rem !important;
+  }
+  .searchbar-form {
+    border-radius: 0px !important;
+  }
+  .ticket-type {
+    height: 47px !important;
+  }
+  .form-wrapper {
+    flex-direction: column;
+    padding-inline: 15px;
+    padding-block: 20px;
+    gap: 30px;
+    border-radius: 0px !important;
+  }
+  .searchbar-form {
+    border-radius: 0px !important;
+  }
+  .grouped-buttons {
+    top: -23px;
+  }
+  .searchbar-inputs {
+    width: 100% !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  .dashed-line {
+    display: none;
+  }
+
+  .ticket-type-action {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+  .btn-container {
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+  }
+  .search-bar-wrapper {
+    padding: 0 !important;
+  }
+  .input-wrapper {
+    width: 100% !important;
+  }
+  .tickets {
+    width: 100% !important;
+    padding-inline: 12px !important;
+  }
+}
+@media screen and (max-width: 411px) {
+  .searchbar-container {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .searchbar-form {
+    border-radius: 0px !important;
+    padding: 0 !important;
+    padding-block: 25px !important;
+    width: 100% !important;
+  }
+  .searchbar-inputs {
+    gap: 10px !important;
+  }
+  .form-wrapper {
+    flex-direction: column;
+
+    gap: 25px;
+    border-radius: 0px !important;
+  }
+  .searchbar-form {
+    border-radius: 0px !important;
+  }
+  .grouped-buttons {
+    top: -21px;
+  }
+  .searchbar-inputs {
+    width: 100% !important;
+  }
+
+  .ticket-type-action {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+  .btn-container {
+    width: 100%;
+    .btn {
+      width: 100%;
+    }
+  }
+  .tickets {
+    width: 100% !important;
+    padding: 0px !important;
+    gap: 5px !important;
+  }
+  .search-bar-wrapper {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .searchbar-input-container {
+    width: 100% !important;
+  }
+  .form-control {
+    font-size: 12px !important;
+  }
+  .form-control::placeholder {
+    font-size: 10px;
   }
 }
